@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "DataVisualizationDashboardApplication",
+            "request": "launch",
+            "mainClass": "com.api.data_visualization_dashboard.DataVisualizationDashboardApplication",
+            "projectName": "data_visualization_dashboard"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DataVisualizationDashboardApplication<data_visualization_dashboard>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.visualizationdashboard.data_visualization_dashboard.DataVisualizationDashboardApplication",
+            "projectName": "data_visualization_dashboard",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50730 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=data_visualization_dashboard"
+        }
+    ]
+}
